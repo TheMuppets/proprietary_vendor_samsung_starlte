@@ -63,5 +63,4 @@ PRODUCT_PACKAGES += \
     libswdap \
     librecordalive \
     libwvhidl \
-    libkeymaster_helper_vendor \
-    android.hardware.neuralnetworks@1.2-service-armnn
+    libkeymaster_helper_vendor
