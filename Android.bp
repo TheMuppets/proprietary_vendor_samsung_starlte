@@ -6,7 +6,8 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-	name: "camera.device@3.2-impl",
+	name: "camera.device@3.2-impl.exynos9810",
+	stem: "camera.device@3.2-impl",
 	owner: "samsung",
 	strip: {
 		none: true,
@@ -26,7 +27,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "camera.device@3.4-impl",
+	name: "camera.device@3.4-impl.exynos9810",
+	stem: "camera.device@3.4-impl",
 	owner: "samsung",
 	strip: {
 		none: true,

@@ -48,8 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/firmware/setfile_3m3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3m3.bin
 
 PRODUCT_PACKAGES += \
-    camera.device@3.2-impl \
-    camera.device@3.4-impl \
+    camera.device@3.2-impl.exynos9810 \
+    camera.device@3.4-impl.exynos9810 \
     camera.exynos9810 \
     libexynoscamera3 \
     libhifistill \
