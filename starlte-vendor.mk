@@ -11,7 +11,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000002e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000002e.tlbin \
     vendor/samsung/starlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
     vendor/samsung/starlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000059.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000059.tlbin \
-    vendor/samsung/starlte/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/starlte/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/starlte/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/starlte/proprietary/vendor/etc/mixer_gains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_gains.xml \
@@ -60,8 +59,12 @@ PRODUCT_PACKAGES += \
     libOMX.Exynos.HEVC.Encoder \
     libOMX.Exynos.HEVC.WFD.Encoder \
     sensors.sensorhub \
-    libsamsungSoundbooster_plus \
-    libswdap \
+    libaudioeffectoffload \
+    audio.primary.exynos9810 \
+    sound_trigger.primary.exynos9810 \
+    lib_SamsungRec_06006 \
+    libaudioproxy \
     librecordalive \
     libwvhidl \
+    libswdap \
     libkeymaster_helper_vendor
